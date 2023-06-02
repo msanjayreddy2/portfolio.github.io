@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjay-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height:85px;
+        background-color: rgb(18,18,64);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+        font-size: 1.02rem;
+        color: rgb(151,153,226);
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      main hr{
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 65px 0;
+
+      }
+      .firstSection > div{
+        width:33%;
+
+      }
+      .leftSection{
+        margin: 0 90px;
+        font-size: 2.7rem;
+        
+      }
+      .rightSection img{
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple{
+        color: rgb(151, 112, 187);
+      }
+      #element{
+        color: rgb(151, 112, 187);
+      }
+      .text-gray{
+        color: gray;
+      }
+      .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height:60vh;
+
+
+      }
+      .secondSection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+      }
+      .secondSection h1{
+        font-size: 1.6rem;
+      }
+      .secondSection .vertical{
+        height: 103px;
+        width:1px;
+        background-color: white;
+        margin: 0 85px;
+      }
+      .imd-top{
+        width:33px;
+        position: relative;
+        top:-40px;
+        background-color: bisque;
+        left:-9px;
+        border-radius: 2px;
+        
+      }
+      .vertical-text{
+        position: relative;
+        top:75px;
+        width:150px;
+        left:-5px;
+      }
+      .thirdSection{
+        max-width: 80vw;
+        margin: auto;
+        height:60vh;
+      }
+      .fourthSection{
+        max-width: 80vw;
+        margin: auto;
+        height:60vh;
+        display: flex;
+      }
+      .link-img{
+        width:60px;
+        position: relative;
+        
+        right: -30px;
+        border-radius: 2px;
+      }
+      .fourth-vertical{
+        display: flex;
+        top:50px;
+        margin: 16px;
+      }
+      .fourth-sub{
+        margin: 45px;
+        margin-left: 32px;
+        margin-bottom: 65px;
+        align-items: end;
+        width: 80px;
+      }
+      footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height:85px;
+        background-color: rgb(18,18,64)
+       
+      }
+      .temp{
+        display: flex;
+      }
+      footer .temp{
+        margin:0 450px;
+      }
+      .leftfooter{
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><h4>Sanjay's Portfolio</h4></div>
+        <div class="right">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="./">About</a></li>
+                <li><a href="./">Services</a></li>
+                <li><a href="./">Projects</a></li>
+                <li><a href="./">Contact Me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">sanjay</span> <div>and i am a passionate</div><div><span id="element"></span></div>
+            </div>
+            <div class="rightSection">
+                <img src="./images/PngItem_1127587.png" alt="">
+            </div>
+        </section>
+    <hr>
+        <section class="secondSection">
+            <span class="text-gray">what I have done so far</span>
+            <h1>Technical skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="./images/html and css-logo.png " alt="" class="imd-top">
+                    <div class="vertical-text">HTML and CSS</div>
+                </div>
+                <div class="vertical">
+                    <img src="./images/python-img.jpeg" alt="" class="imd-top">
+                    <div class="vertical-text">Python</div>
+                </div>
+                <div class="vertical">
+                    <img src="./images/jslogo.png" alt="" class="imd-top">
+                    <div class="vertical-text">javaScript</div>
+                </div>
+                <div class="vertical">
+                    <img src="./images/c++ logo.png " alt="" class="imd-top">
+                    <div class="vertical-text">c and c++</div>
+                </div>
+                <div class="vertical">
+                    <img src="./images/mongodb logo.png" alt="" class="imd-top" style="height: 40 px;">
+                    <div class="vertical-text">mongoDB</div>
+                </div>
+                <div class="vertical">
+                    <img src="./images/sql-logo.png" alt="" class="imd-top">
+                    <div class="vertical-text">mySQL</div>
+                </div>
+                <div class="vertical">
+                    <img src="./images/ml.jpeg" alt="" class="imd-top">
+                    <div class="vertical-text">MachineLearning</div>
+                </div>
+                
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <span class="text-gray">what I have done so far</span>
+            <br>
+            <div>
+                <h1>Projects</h1>
+                <br>
+                <br>
+                <div >
+                    <h3 style="right: 100px;">->Transparent and genuine Charity Application</h3>
+                    <br>
+                    <p style="margin-left: 50px;">--which is based on block chain technology</p>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <div class="fourth-vertical">
+                <h1>
+                Quick Links
+                </h1>
+                <br>
+                <div class="fourth-sub">
+                    <h3 >hackerrank</h3>
+                    <a href="https://www.hackerrank.com/msanjayreddy4?hr_r=1"><img src="./images/hackerranklogo.png" alt="" class="link-img"></a>
+                </div>
+                <div class="fourth-sub">
+                    <h3 style="margin: 0 20px;">leetcode</h3>
+                    <a href="https://leetcode.com/sanjayreddy_mallepalli/"><img src="./images/leetcode logo.jpeg" alt="" class="link-img"></a>
+                </div>
+                <div class="fourth-sub">
+                    <h3 style="margin: 0 -4px;">geeksforgeeks</h3>
+                    <a href="https://auth.geeksforgeeks.org/user/__cracker__/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"><img src="./images/gfg logo.jpeg" alt="" class="link-img"></a>
+                </div>
+                <div class="fourth-sub">
+                    <h3 style="margin: 0 25px;">linkedin</h3>
+                    <a href="linkedin.com/in/m-sanjay-reddy-14524a212"><img src="./images/linkedin.jpeg" alt="" class="link-img"></a>
+                </div>
+                <div class="fourth-sub">
+                    <h3 style="margin: 0 26px;">github</h3>
+                    <a href="https://github.com/msanjayreddy2"><img src="./images/github-logo.png" alt="" class="link-img"></a>
+                </div>
+                
+            </div>
+        </section>
+        <footer>
+            <h1 class="leftfooter">Contact Me </h1>
+            <div class="temp">
+            <div>
+            <p>mail:<span>msanjayreddy2@gmail.com</span></p>
+            <div>
+            <div>
+                <p>mobileno:<span>8374901097</span></p>
+            </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['web developer', 'front-end developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
